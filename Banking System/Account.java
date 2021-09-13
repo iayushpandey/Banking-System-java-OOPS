@@ -7,7 +7,7 @@ public class Account {
 
     public void deposit(double depositAmount){
         this.balance += depositAmount;
-        System.err.println("Deposit of " +depositAmount + " processed. New Balance is " +balance);
+        System.out.println("Deposit of " +depositAmount + " processed. New Balance is " +balance);
     }
    
 
